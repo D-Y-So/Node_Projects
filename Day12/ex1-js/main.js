@@ -29,4 +29,9 @@ c1.log();
 var c2 = new Calculator(-3,27);
 c2.log();
 
-setTimeout(c2.log(), 2000);
+setTimeout(function(){c2.log()}, 2000);
+
+setTimeout(c2.log.bind(c2),2000);
+
+//setTimeout(c2.log(), 2000); //calls the function immediatley //in node.js gives invalid callback error
+//setTimeout(c.log, 2000); //error
