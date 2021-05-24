@@ -1,3 +1,3 @@
 # Node_Projects
 
-1) First change
+* Day 12: ex1-js
