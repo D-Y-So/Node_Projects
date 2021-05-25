@@ -1,0 +1,7 @@
+span {
+    margin: 10px; /*always use pixels and not % */
+}
+
+div {
+    margin: 10px;
+}
