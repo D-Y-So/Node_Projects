@@ -1,0 +1,9 @@
+h1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: navy;
+    margin-top: 50px;
+}
