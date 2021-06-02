@@ -1,0 +1,9 @@
+<app-rgb-editor></app-rgb-editor>
+
+<app-color-presenter [color]="userColor$ | async" title="Your Guess"></app-color-presenter>
+
+<app-color-presenter [color]="computerColor$ | async" title="Computer"></app-color-presenter>
+
+<button (click)=randomize()> Random Color </button>
+
+<h1 *ngIf="success$ | async">Success!!!</h1>

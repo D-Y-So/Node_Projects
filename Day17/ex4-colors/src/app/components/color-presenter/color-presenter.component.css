@@ -1,0 +1,11 @@
+div{
+    width: 100px;
+    height: 100px;
+    border: solid 2px black;
+}
+
+h2{    
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,34 @@
+:host{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+h1{   
+    grid-column: 2;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(60, 128, 60);
+}
+
+app-rgb-editor{
+    margin-top: 65px;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+app-color-presenter{
+    margin: 10px;
+}
+
+button{    
+    margin-top: 70px;    
+    height: 50px;
+    width: 150px;
+    border: soli 2px rgb(108, 108, 231);
+    background-color:rgb(83, 119, 226);
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}

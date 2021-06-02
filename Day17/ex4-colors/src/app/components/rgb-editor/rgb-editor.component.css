@@ -1,0 +1,25 @@
+:host {
+    display: flex;
+    flex-direction: column;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+span{
+    width: 80px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input{
+    width: 100px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(82, 159, 161);
+    border: solid 2px black;
+}
