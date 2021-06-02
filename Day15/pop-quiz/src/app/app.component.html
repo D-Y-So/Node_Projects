@@ -1,0 +1,19 @@
+<div class="title-area">
+  <h1>Pop Quiz</h1>
+</div>
+
+<div class="question-area">
+  <app-question-presenter 
+    *ngIf="!isQuizOver"
+    [question]="currentQuestion"
+    (userChosenAnswer)="userSelectedAnswer($event)">
+  </app-question-presenter>
+
+  <app-quiz-over
+    *ngIf="isQuizOver">    
+  </app-quiz-over>
+</div>
+
+<div class="summary-area">
+  <app-summary [questions]="summary"></app-summary>
+</div>
