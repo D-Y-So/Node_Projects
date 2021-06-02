@@ -15,6 +15,8 @@ export class AppComponent implements OnInit{
   computerColor$: Observable<string> | null = null;
   success$: Observable<boolean> | null = null;
 
+  gameStart: boolean = false;
+
   constructor(private gameService: GameService) {}
 
   private rgbToString(rgb: Rgb) {
@@ -37,6 +39,7 @@ export class AppComponent implements OnInit{
 
   randomize(): void {
     this.gameService.randomizeComputerColor();
+    this.gameStart = true;
   }
   
 }

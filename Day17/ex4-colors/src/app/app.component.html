@@ -6,4 +6,4 @@
 
 <button (click)=randomize()> Random Color </button>
 
-<h1 *ngIf="success$ | async">Success!!!</h1>
+<h1 *ngIf="(success$ | async) && gameStart === true">Success!!!</h1>
